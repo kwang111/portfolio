@@ -74,6 +74,9 @@ h2, h4{
         margin-left: 10px;
     margin-right: 10px;
     }
+    .name-card{
+        width: 80%
+    }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -88,5 +91,8 @@ h2, h4{
 
     .card{
         width: auto;
+    }
+    .name-card{
+        width: 95%
     }
 }
