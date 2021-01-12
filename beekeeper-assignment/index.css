@@ -16,18 +16,14 @@
 
   .photo-div-50 {
     max-width: 50%;
-    display: flex;
-    align-content: center;
-    padding: 25px;
-    justify-content: space-around;
+    align-content: flex-start;
+    padding: 20px;
   }
 
   .photo-div-30 {
     max-width: 30%;
-    display: flex;
-    align-content: center;
-    padding: 25px;
-    justify-content: space-around;
+    align-content: flex-start;
+    padding: 20px;
   }
 
   img{
