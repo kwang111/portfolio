@@ -1,0 +1,212 @@
+.nav-wrapper{
+    font-size: 20px;
+  }
+  
+  .heading{
+    background-color: #a3572b;
+    padding: 20px;
+    color: white;
+  }
+  
+  .photo-div {
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    padding: 25px;
+    justify-content: space-around;
+  }
+
+  .photo-div-50 {
+    max-width: 50%;
+    display: flex;
+    align-content: center;
+    padding: 25px;
+    justify-content: space-around;
+  }
+
+  .photo-div-30 {
+    max-width: 30%;
+    display: flex;
+    align-content: center;
+    padding: 25px;
+    justify-content: space-around;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-col {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .flex-row{
+  display: flex;
+  align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul, ol{
+    text-align: left;
+  }
+  
+  body {
+    background-color: #ffe9c2;
+    color: #5a2400;
+    font-family: lato;
+    text-align: center;
+    line-height: 1.618em;
+    margin: 50px;
+  }
+  
+  h4{
+    font-weight: bolder;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  h5{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  p, h6{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .intro-card{
+    width: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(194, 194, 194);
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .body-card{
+    width: 95%;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(194, 194, 194);
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spacer{
+    padding: 25px;
+  }
+  
+  
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width: 1200px) {
+      .tabs{
+          margin: 0px;
+      }
+      .body{
+          margin: 0px;
+      }
+      .tab-content{
+          padding: 5px;
+      }
+      .flex-col{
+          padding: 5px;
+      }
+      .flex-row{
+          padding: 5px;
+      }
+      iframe{
+        width: 90%;
+      }
+    
+      .photo-div{
+          flex-direction: column;
+          padding: 10px;
+          width: 100%;
+      }
+  
+      .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .intro-card{
+        width: 100%;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgb(194, 194, 194);
+        border-radius: 2px;
+        padding: 20px;
+        margin: 20px;
+      }
+      .body-card{
+        width: 100%;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgb(194, 194, 194);
+        border-radius: 2px;
+        padding: 20px;
+        margin: 20px;
+      }
+      .images{
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .gallery{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .photo-div-50 {
+        max-width: 100%;
+        display: flex;
+        align-content: center;
+        padding: 25px;
+        justify-content: space-around;
+      }
+    
+      .photo-div-30 {
+        max-width: 100%;
+        display: flex;
+        align-content: center;
+        padding: 25px;
+        justify-content: space-around;
+      }
+    }
