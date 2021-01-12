@@ -9,11 +9,9 @@
   }
   
   .photo-div {
-    max-width: 100%;
-    display: flex;
-    align-content: center;
-    padding: 25px;
-    justify-content: space-around;
+    max-width: 600px;
+    align-content: flex-start;
+    padding: 20px;
   }
 
   .photo-div-50 {
